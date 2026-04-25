@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+firmware = "target/riscv32imc-unknown-none-elf/release/nostd-blink"
+elf = "target/riscv32imc-unknown-none-elf/release/nostd-blink"
+diagram = "diagram.json"

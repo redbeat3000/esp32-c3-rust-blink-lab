@@ -1,0 +1,12 @@
+[package]
+name = "nostd-blink"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+esp-hal = { version = "=1.0.0", features = ["esp32c3"] }
+esp-backtrace = { version = "0.15.1", features = ["esp32c3", "panic-handler", "println"] }
+esp-println = { version = "0.13.1", features = ["esp32c3", "auto"] }
+[profile.release]
+opt-level = "s"
+lto = "fat"

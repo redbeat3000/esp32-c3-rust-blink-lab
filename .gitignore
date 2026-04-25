@@ -1,0 +1,22 @@
+# Build folders
+target/
+**/target/
+
+# Cargo locks
+Cargo.lock
+**/Cargo.lock
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Embedded specific
+*.bin
+*.elf
+*.hex
+*.map
+.embuild/

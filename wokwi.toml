@@ -1,0 +1,9 @@
+[wokwi]
+version = 1
+firmware = "nostd-blink/target/riscv32imc-unknown-none-elf/release/nostd-blink"
+elf = "nostd-blink/target/riscv32imc-unknown-none-elf/release/nostd-blink"
+diagram = "nostd-blink/diagram.json"
+# To run the std version, uncomment the lines below and comment the lines above:
+# firmware = "std-blink/target/riscv32imc-esp-espidf/release/std-blink"
+# elf = "std-blink/target/riscv32imc-esp-espidf/release/std-blink"
+# diagram = "std-blink/diagram.json"

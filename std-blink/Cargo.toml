@@ -1,0 +1,11 @@
+[package]
+name = "std-blink"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+esp-idf-hal = "0.43"
+esp-idf-sys = { version = "0.34", features = ["binstart"] }
+
+[build-dependencies]
+embuild = "0.31"
