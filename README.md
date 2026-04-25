@@ -5,6 +5,8 @@
 
 ![Headline](assets/headline.png)
 
+📄 **[Read the Full Technical Report](TECHNICAL_REPORT.md)**
+
 A comprehensive comparison and implementation of LED blinking on the ESP32-C3 using both **Standard Library (std)** and **Bare-Metal (no_std)** Rust.
 
 ## 🌟 Overview
